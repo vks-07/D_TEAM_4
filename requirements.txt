@@ -1,0 +1,6 @@
+opencv-python
+easyocr
+openpyxl
+fastapi
+uvicorn
+python-multipart
