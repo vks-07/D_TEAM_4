@@ -43,7 +43,15 @@ def main():
     Returns:
         None
     """
-    image_path = sys.argv[1] if len(sys.argv) > 1 else "sample_plate.jpg"
+    if len(sys.argv) > 1:
+        image_path = sys.argv[1]
+    elif os.path.isfile("sample_plate.jpg"):
+        image_path = "sample_plate.jpg"
+    else:
+        print("Usage: python number_plate.py <path_to_image>")
+        print("Example: python number_plate.py car.jpg")
+        return
+
     if not os.path.isfile(image_path):
         print(f"Error: Image '{image_path}' not found.")
         return
