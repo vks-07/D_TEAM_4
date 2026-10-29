@@ -6,7 +6,7 @@
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.11+-5C3EE8?logo=opencv&logoColor=white)](https://opencv.org/)
 [![EasyOCR](https://img.shields.io/badge/EasyOCR-CRAFT%20%2B%20CRNN-FF6F00)](https://github.com/JaidedAI/EasyOCR)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)](https://github.com/vks-07/Number-Plate-Detection)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)](https://github.com/vks-07/TEAM_4)
 
 An end-to-end, full-stack Automatic Number Plate Recognition system specifically engineered for **Indian High Security Registration Plates (HSRP)**, standard horizontal plates, and two-tier stacked plates. 
 
@@ -144,8 +144,8 @@ Number-Plate-Detection/
 Open **PowerShell** (press `Win + X` $\rightarrow$ select **Terminal** or **PowerShell**):
 ```powershell
 cd ~/Desktop
-git clone https://github.com/vks-07/Number-Plate-Detection.git
-cd Number-Plate-Detection
+git clone https://github.com/vks-07/TEAM_4.git
+cd TEAM_4
 ```
 
 #### Step 3: Configure Virtual Environment in PowerShell
@@ -192,8 +192,8 @@ Open **Terminal** (`Cmd + Space` $\rightarrow$ type `Terminal`):
 #### Step 2: Clone Repository
 ```bash
 cd ~/Desktop
-git clone https://github.com/vks-07/Number-Plate-Detection.git
-cd Number-Plate-Detection
+git clone https://github.com/vks-07/TEAM_4.git
+cd TEAM_4
 ```
 
 #### Step 3: Setup Virtual Environment & Dependencies
@@ -225,8 +225,8 @@ sudo apt install -y python3 python3-pip python3-venv git nodejs npm libgl1 libgl
 
 #### Step 2: Clone & Virtual Environment Setup
 ```bash
-git clone https://github.com/vks-07/Number-Plate-Detection.git
-cd Number-Plate-Detection
+git clone https://github.com/vks-07/TEAM_4.git
+cd TEAM_4
 
 python3 -m venv venv
 source venv/bin/activate
@@ -251,14 +251,14 @@ The web system runs as two cooperating processes: the **FastAPI Backend** and th
 
 * **Windows (PowerShell)**:
   ```powershell
-  cd Number-Plate-Detection
+  cd TEAM_4
   .\venv\Scripts\Activate.ps1
   cd backend
   python -m uvicorn app:app --host 127.0.0.1 --port 8000 --reload
   ```
 * **macOS / Linux**:
   ```bash
-  cd Number-Plate-Detection
+  cd TEAM_4
   source venv/bin/activate
   cd backend
   python -m uvicorn app:app --host 127.0.0.1 --port 8000 --reload
@@ -276,7 +276,7 @@ EasyOCR reader loaded successfully.
 
 * **Windows / macOS / Linux**:
   ```bash
-  cd Number-Plate-Detection/frontend
+  cd TEAM_4/frontend
   npm run dev
   ```
 
